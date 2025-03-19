@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,8 +11,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background:  #ededed;
+    --foreground: #0a0a0a;
   }
 }
 
@@ -24,4 +26,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+@font-face {
+  font-family: "RegularBrush";
+  src: url("/fonts/RegularBrush.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
